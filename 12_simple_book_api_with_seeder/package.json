@@ -1,0 +1,21 @@
+{
+  "name": "10_simple_book_api_with_authentication",
+  "version": "1.0.0",
+  "description": "Book API with Authentication",
+  "main": "server.js",
+  "scripts": {
+  "start": "node server.js",
+  "seed": "node seeders/seed.js"
+},
+  "dependencies": {
+    "@faker-js/faker": "^9.8.0",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.21.2",
+    "joi": "^17.8.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.2.2",
+    "nodemailer": "^7.0.3",
+    "pug": "^3.0.3"
+  }
+}
